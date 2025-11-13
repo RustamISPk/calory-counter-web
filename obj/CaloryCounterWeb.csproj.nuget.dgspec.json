@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/rustam/Рабочий стол/учеба/web/calory-counter-web/CaloryCounterWeb.csproj": {}
+    "/home/rustam/Рабочий стол/учеба/web/CaloryCounterWeb/CaloryCounterWeb.csproj": {}
   },
   "projects": {
-    "/home/rustam/Рабочий стол/учеба/web/calory-counter-web/CaloryCounterWeb.csproj": {
+    "/home/rustam/Рабочий стол/учеба/web/CaloryCounterWeb/CaloryCounterWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/rustam/Рабочий стол/учеба/web/calory-counter-web/CaloryCounterWeb.csproj",
+        "projectUniqueName": "/home/rustam/Рабочий стол/учеба/web/CaloryCounterWeb/CaloryCounterWeb.csproj",
         "projectName": "CaloryCounterWeb",
-        "projectPath": "/home/rustam/Рабочий стол/учеба/web/calory-counter-web/CaloryCounterWeb.csproj",
+        "projectPath": "/home/rustam/Рабочий стол/учеба/web/CaloryCounterWeb/CaloryCounterWeb.csproj",
         "packagesPath": "/home/rustam/.nuget/packages/",
-        "outputPath": "/home/rustam/Рабочий стол/учеба/web/calory-counter-web/obj/",
+        "outputPath": "/home/rustam/Рабочий стол/учеба/web/CaloryCounterWeb/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/rustam/.nuget/NuGet/NuGet.Config"
@@ -44,6 +44,16 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "DotNetEnv": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[9.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
